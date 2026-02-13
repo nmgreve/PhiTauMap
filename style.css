@@ -126,7 +126,7 @@ body:has(.storepoint-iframe),html:has(.storepoint-iframe) {
 
 .storepoint-container {
     font-family: var(--storepoint-font-family, var(--storepoint-default-font-family));
-    height: var(--storepoint-widget-height, 100%);
+    height: var(--storepoint-widget-height, 100vh);
     border: 1px solid var(--storepoint-border-color);
     border-radius: var(--storepoint-widget-border-radius, 5px);
     box-shadow: var(--storepoint-widget-box-shadow);
@@ -9607,7 +9607,7 @@ a.storepoint-custom-button:hover,a.storepoint-custom-button:active {
     top: 100%;
     left: 0;
     width: auto;
-    max-height: calc(var(--storepoint-height, 100%) - 150px);
+    max-height: calc(var(--storepoint-height, 100vh) - 150px);
     overflow-y: auto;
     background: var(--storepoint-dropdown-options-background-color);
     color: var(--storepoint-dropdown-options-text-color);
